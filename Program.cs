@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Garage
  {
@@ -36,13 +37,17 @@ namespace Garage
 
 
 
-    class Program
-    {
-        static void Main(string[] args)
-        {
-        Zero fxs = new Zero();
-        Zero fx = new Zero();
-        Tesla modelS = new Tesla();   
+        class Program {
+        static void Main (string[] args) {
+            Zero fxs = new Zero ();
+            Zero fx = new Zero ();
+            Tesla modelS = new Tesla ();
+
+            List<IElectricPowered> electricVehicles = new List<IElectricPowered>();
+
+            electricVehicles.Add(fx);
+            electricVehicles.Add(fxs);
+            electricVehicles.Add(modelS);
         }
     }
 }
