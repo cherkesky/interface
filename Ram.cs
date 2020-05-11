@@ -1,9 +1,11 @@
 namespace Garage {
-    public class Zero : IElectricPowered {
-        public double BatteryKWh { get; set; }
+  public class Ram : IGasPowered{
+        public double FuelCapacity { get; set; }
         public string MainColor { get; set; }
         public string MaximumOccupancy { get; set; }
-
+        public void RefuelTank () { System.Console.WriteLine("Gulp"); }
         public void ChargeBattery () { System.Console.WriteLine("Zoink!"); }
+
     }
+  }
 }
