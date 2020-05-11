@@ -53,7 +53,7 @@ namespace Garage
             };
 
             gasVehicles.ForEach(gv => gv.RefuelTank());
-            gasVehicles.ForEach(gv => gv.ChargeBattery());
+            electricVehicles.ForEach(ev => ev.ChargeBattery());
 
         }
     }

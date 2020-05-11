@@ -6,7 +6,6 @@ namespace Garage {
 
     public interface IGasPowered {  
       double FuelCapacity  { get; set; }
-      void ChargeBattery ();
       void RefuelTank();
 
     }

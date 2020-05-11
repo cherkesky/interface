@@ -4,6 +4,6 @@ namespace Garage {
         public string MainColor { get; set; }
         public string MaximumOccupancy { get; set; }
 
-        public void ChargeBattery () { System.Console.WriteLine("Zoink!"); }
+        public void ChargeBattery () { System.Console.WriteLine("ZERO - Zoink!"); }
     }
 }

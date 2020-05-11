@@ -4,8 +4,7 @@ namespace Garage {
     public string MainColor { get; set; }
     public string MaximumOccupancy { get; set; }
 
-    public void RefuelTank () { System.Console.WriteLine("bloop"); }
-    public void ChargeBattery () { System.Console.WriteLine("Zoink!"); }
+    public void RefuelTank () { System.Console.WriteLine("CESSNA - Gulp!"); }
 
     }
 
