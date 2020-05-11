@@ -40,7 +40,9 @@ namespace Garage
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+        Zero fxs = new Zero();
+        Zero fx = new Zero();
+        Tesla modelS = new Tesla();   
         }
     }
 }
